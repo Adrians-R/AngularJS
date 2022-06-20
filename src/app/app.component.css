@@ -1,0 +1,10 @@
+.container{
+  justify-content: center;
+}
+.btn{
+  margin: 15px;
+}
+.breadcrumb{
+  justify-content: center;
+  cursor: pointer;
+}

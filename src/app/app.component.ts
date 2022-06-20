@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-
+import {faArrowUp, faUser } from '@fortawesome/free-solid-svg-icons';
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
@@ -7,4 +7,7 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'news-website';
+  faArrowUp = faArrowUp;
+  faUser = faUser;
+
 }
